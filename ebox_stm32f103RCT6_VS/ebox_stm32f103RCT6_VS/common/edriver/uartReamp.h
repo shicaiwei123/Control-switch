@@ -1,4 +1,4 @@
-#pragma once
+/*对Uart1的IO口重映射，因为占用了定时器1的A9和A10，将其映射到B6和B7*/
 #ifndef _UART_REMAP
 #define _UART_REMAP
 #include "ebox.h"

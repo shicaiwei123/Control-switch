@@ -20,8 +20,8 @@ LDFLAGS :=
 COMMONFLAGS := 
 LINKER_SCRIPT := 
 
-START_GROUP := -Wl,--start-group
-END_GROUP := -Wl,--end-group
+START_GROUP := 
+END_GROUP := 
 
 #Additional options detected from testing the toolchain
 USE_DEL_TO_CLEAN := 1
